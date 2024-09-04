@@ -18,3 +18,4 @@ function deleteNote(e) {
 }
 
 createBtn.addEventListener("click", createNote);
+notesContainer.addEventListener("click", deleteNote);
