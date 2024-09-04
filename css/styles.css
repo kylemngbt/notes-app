@@ -68,3 +68,9 @@ html {
   right: 15px;
   cursor: pointer;
 }
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
