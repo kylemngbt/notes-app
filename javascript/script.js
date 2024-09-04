@@ -14,6 +14,7 @@ function createNote() {
 function deleteNote(e) {
   if (e.target.tagName === "IMG") {
     e.target.parentElement.remove();
+    updateStorage();
   }
 }
 
