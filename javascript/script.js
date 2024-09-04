@@ -10,3 +10,5 @@ function createNote() {
   img.src = "./images/delete.png";
   notesContainer.appendChild(inputBox).appendChild(img);
 }
+
+createBtn.addEventListener("click", createNote);
