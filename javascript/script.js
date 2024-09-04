@@ -17,5 +17,9 @@ function deleteNote(e) {
   }
 }
 
+function updateStorage() {
+  localStorage.setItem("notes", notesContainer.innerHTML);
+}
+
 createBtn.addEventListener("click", createNote);
 notesContainer.addEventListener("click", deleteNote);
