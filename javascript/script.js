@@ -36,3 +36,10 @@ function updateStorage() {
 
 createBtn.addEventListener("click", createNote);
 notesContainer.addEventListener("click", modifyNote);
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Enter") {
+    document.execCommand("insertLineBreak");
+    event.preventDefault();
+  }
+})
